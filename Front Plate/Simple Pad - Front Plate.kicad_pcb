@@ -1,0 +1,4165 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "Simple Pad - Front Plate")
+		(date "2026-11-10")
+		(rev "1.00")
+		(company "Tweety's Wild Thinking")
+		(comment 1 "Design: Markus Knutsson <markus.knutsson@tweety.se>")
+		(comment 2 "https://github.com/TweetyDaBird")
+		(comment 3 "Licensed under Creative Commons BY-SA 4.0 International")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 6)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "Keyboard Plates:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "0ae4bce6-6aeb-4cd7-abef-3bbc44b195bc")
+		(at 139.465 57.02)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H3"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "00f09de6-d204-4e60-8e81-6b1a2b39e353")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "822e2ea2-46b3-4609-a3c0-a4070dcd3a3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28e4e15c-535d-4d4b-b701-3015582549ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "224be0c0-8776-4384-8481-fd8b70fd35d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aae2856d-f7ff-431a-bcdf-ef39920b3fa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4911a905-1130-4f53-81ec-e5e9d0d965a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/7a321b3c-af5b-4520-b859-da5f88739cd3")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "7918b861-3007-4152-9292-f5d960b77e9f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "45beeb14-b2e6-4e23-8837-922484558bf4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4edbc1f3-fa9e-4389-9913-32249193be80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cd05c42a-0462-4654-b3de-96cac739c95c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "10a33561-6c04-4dcc-a3ba-9710373cb00a")
+		(at 110.89 66.54 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW11"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87cbca6c-b439-4d15-ac89-7a04743ebefe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fb99db69-faf8-4ac0-88ea-2350d127ef9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebadb995-45b4-4d98-bd8b-b9fbea30bfee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eb9e0aa-076c-4999-8e79-e91b816dfc8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b36d9766-1829-42dd-acd2-289a1bb2cd1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc5d431e-d61c-4925-ba91-3c6dd5e257bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/3bd7ff13-7446-4f5d-8d15-fdb3b4b18598")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "41271178-e226-4d02-8dd6-42e7d3b3a0a5")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6d20c051-705f-402b-ae5f-13b859f49cf7")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c1917ba5-4360-4463-97df-399d8537ecfd")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7ccacac8-053d-4047-bb0d-909666667c69")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "1f495890-7441-425c-87b5-c2eddc9ed7cf")
+		(at 91.84 47.49 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW3"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6715ed3c-bb43-4602-a7b9-d5fa7334cb47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7885f875-2be2-4e0a-8de2-165f6ed4bfee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad0bd5ab-9d48-4ba9-857c-5de2f421f4ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1185f547-10a2-43ab-a87d-b97e99853e31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d7dc67c-27f9-41a4-b2dd-e65056acba04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f516c49-780e-4568-a16e-63a3786824d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/cc0c1b01-1433-445d-b2da-c699998194a1")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "284f12fb-b3a6-46e0-8bdd-97c2d9f89866")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "737cbbd1-9abb-43a4-a5c6-704b36849af9")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea568a91-638f-40fc-8c28-cbe3c933581f")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "061549d2-a023-4301-abf7-41c35fb1d9ba")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "20f36775-8627-463a-9d9f-0db7bba9f080")
+		(at 139.465 95.12)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H4"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f591ffa6-bf6c-4ff3-ba4c-73c05bd7f997")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de6627ac-9563-49e1-8526-a378e85c412a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d2a1b25-9e0e-4372-b960-f494bc8daa91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc462f56-2432-456f-942c-ccafad409bba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0826f9e0-9162-45a0-8254-6e96a1fcba50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9edd9595-8cdc-4e78-8514-6f95cbe5df4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/ab12f11b-6db2-47b9-a504-8cceaac36de4")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "72be8b1f-89fc-4c8e-8adf-85c49f85ce5a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e36ec0e7-bd07-4270-92a3-5a9ec02f751a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b4ad3353-da42-42ea-9b00-a1bb5ecce94a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7746c4f3-c41d-48a1-8787-837d2cfb7a58")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "29920fd8-6685-4598-9f2c-a663c4532d5c")
+		(at 148.99 104.64 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW27"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "37c4fbf0-e782-49f7-9333-7c0147c914ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da7da9c2-55b3-44e9-a52b-0936187ea784")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92d62047-162d-4361-ab2b-fdfd47e09abd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "955ba9ad-e7b5-45f4-8102-a650e87e0cf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb59669c-6f5e-4b96-9ea1-090421e57255")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c1bd008-15ca-4a43-9b59-50179b67e800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/7f1ff4af-f1c6-4d0c-9770-c4095cb0b786")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "11b4b19b-7391-4838-b9c1-3d7fba9aa9c9")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "21c1f064-bf97-49c9-9408-e0dce7274762")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cd15064e-94f3-4a48-ab66-dc1d89379999")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "15e843b6-a8bc-4e7f-a181-5a7ada1e5e23")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "2c47edbf-3894-4938-b226-1974a952438c")
+		(at 148.99 66.54 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW13"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d9acb74f-9125-480c-ab76-7d45797ee176")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f42cb62e-dc5d-4908-980b-e21c911a9454")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "803529a2-251d-408e-b50f-2c16ebca95b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59beae8f-fb3f-4004-8c1a-57596b6aa1f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2303ded-dd1f-4b58-9571-9b298428bc11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c5b203a-ad46-4f22-80f5-43a1b3c4426f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/9599ff54-fb99-4a11-abf2-8c227cc3e946")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b8f9bcc0-b29b-473b-aa98-b408bd365bfb")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6c923988-bc50-4805-9e39-ee5d8a14f7e9")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "788f7211-d887-459b-92d9-2d8f0c1ede76")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5a734793-4e7d-4d4c-90a9-7eeb0614c683")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "3e0e652f-0b19-4608-b9fd-b3403bcf39a8")
+		(at 53.74 66.54 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW8"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b3874ec7-9e39-4f6d-8353-4a5a07f00f45")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3446e78d-6acc-4fb0-9b68-d03b11c01fd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "326ef6d4-e064-42f3-8716-97ec46665c78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16882dd8-ab7f-40d8-8db8-045c98199856")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e1029d0-0daf-4a5b-b2fc-e77a3f3b2a6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ef49739-785b-46ce-8ca1-4a5af05a051a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/3532cddf-acb9-4e3a-8232-d14fb89c468b")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ec7b0ab2-fc91-428d-828b-16964f3697b0")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "10924837-a5bf-4f51-9505-93fe53eb00f3")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "73bd0c39-c0d6-4ddd-a8a3-eeb3bcf0a488")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "201c8396-77e4-4a57-b4a7-dd5c501b2470")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "47cc3c8a-7e43-415b-bd07-0735b717da15")
+		(at 72.79 66.54 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW9"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b385f77-a5e3-4b27-a599-f415e0dae8aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7d8747d3-abda-46fb-9289-768dca2a008b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43debbe4-fe06-41b1-8c44-0d0a2c352b57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52b2b72d-f9ae-4c93-a541-eb2b9c15937f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c441d4d-770e-4a93-8b0f-8cb4e7a5ca80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d49de619-6edb-4b1b-a3ea-147b4474588e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/9d0a9958-db67-4fa2-a63a-2635acbcaff5")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "842c5781-3d4d-42c1-a556-08a13ba68dca")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "32fb3a78-1814-4788-8e37-189cd5088458")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "35159f10-ca89-40a8-963a-2ea3b33c190f")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "862c37de-28b7-4f96-acc1-c1824d21219e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "51b69cd5-8d95-4d13-948d-d1fc304040c8")
+		(at 148.99 85.59 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW20"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4555d117-d1a2-49e0-a8a4-a34536d17cdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6539be2b-8d38-4bc8-953a-5591450d473e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9919b20-30be-4020-8f07-f4bace72ac66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f11577e-8817-405e-bb03-7c1f41480af9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f12a4f84-f5a8-434f-bca5-161fe961ec58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db505c16-b31c-4608-b238-e6ac4efb2b64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/26f2bfa5-e29e-4c96-b63d-8431daff424e")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ad0bf887-f179-4adf-8243-97b23a610914")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "12df9e2c-569f-4a95-8025-8314261bb8cc")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8fe3baa0-8a43-43c7-95cb-789557f619cf")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "314308ee-b25f-4daa-8b70-c03b830ff6d7")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "55e85d23-f6f2-4c05-88e8-f6f80a771dbe")
+		(at 110.89 85.59 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW18"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0a53344f-1101-4d4c-823f-69879ced6367")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b6dd68d9-6292-4e22-be4d-c7b125702d50")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a950b23c-218d-4581-9229-78380b5e03dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b0a3ec3-a5bc-4217-acfc-c481c59c0478")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffc13729-76e0-4cad-84c4-9a028b33b0c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f32251d6-d3b7-4f3f-9801-e182bea806a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/a0f684e4-9c3f-46c1-8faa-31c989bfcd70")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7485cdab-ab80-4acb-b828-841dbc29df8c")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e68bd7fe-212a-450c-a2e0-f9c905493e9e")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "33e81213-29c2-45d6-b673-e5918beff348")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a4522634-9615-4548-8f69-d5fb59ce439a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "57a4d184-aa7e-4a19-ab9d-72d7c3cae0a3")
+		(at 129.94 66.54 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW12"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "72a0c62d-bdb1-4dba-a8d2-c4ba7532ce55")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5670b6a-f9ae-4d39-9ebd-ee84cc53e6c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "308593ed-f5b6-4c3f-933d-c778b6bbf698")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21d860b2-1a1e-490a-ac41-77df13254097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89f54c2b-89ab-4b5d-baeb-51396309010c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d434882c-2a51-42d0-ad7c-1147044289db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/6d0ab47c-31d0-41af-af87-72b310f1652a")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "89cfb335-abc1-4789-b580-d774aa5818dc")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8e004a87-cadc-45c3-81d4-9025bbbdb0e5")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "46bd0e0b-04be-4a21-8ff1-fe2d3b251fa4")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1a2eee05-0c36-46e3-ac75-ea6af3a83e5b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "5d29244b-9d32-411c-8b34-555702ecbba6")
+		(at 63.265 57.02)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H1"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2147fbc4-6a57-4c7a-96e7-0b79faabe679")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cc3fcb4-2991-4aab-a9a8-c2bf19ec0659")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c3b99cd-8fc2-4650-85ab-994bf908c6b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4cf2b3d-4fc9-4b95-8e5a-73da3bd596c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f2fa3f5-4704-4aeb-a860-4835dbe56346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c080db46-fb5a-4488-899c-ed1fd93c873d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/3ca4dccb-847c-44b2-85b6-6ef74344fd52")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "7415bee2-a7b4-4c6b-98d5-ecbdef640e5c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "67eb6030-8a89-4f67-89b4-b4cbaa9f792d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4a247a52-e0fc-41f2-91ff-3f6151ad4a40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e0ff0923-8887-40ff-b2a9-60044e2b0e65")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "644e1e13-f92d-4774-a591-1e882eb9443e")
+		(at 110.89 47.49 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW4"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "efca22cf-5548-4544-b036-52776cb3ea29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "309ef164-75f6-4b38-860f-f7eaf774c271")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cae56be-9471-42f8-8aec-b5768ba46a87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "829fc9c7-2a8e-4dd6-8868-97e1e401ce84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbe2de86-0ce7-45d7-a37a-c473a0d63a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9764fbc-b924-4b7b-9dc1-3c9b689e3993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/81fe3798-d664-412c-8752-f07fa912e9f1")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "97789c3b-03be-4472-9838-2694b1c7293e")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d048f51d-048e-4d8d-a280-9fd313b33f0e")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aa69d55d-4f61-4634-bd9e-e61d6bbdbb13")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a06f62a-3a67-44e0-a2cc-652f90a22ace")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "739afacd-3de6-4071-b3ac-37837ce1bfeb")
+		(at 72.79 85.59 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW16"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0b581b12-be2a-452e-b350-b2e2e9fdebf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7148164d-4422-4710-ad4a-a72f35bcc846")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8ef9495-e91f-4cce-8050-f1b5611d396f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26a48453-5e52-4e9b-967b-0cd83e2ee9de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e60b70d-b038-4d62-b67f-4dfc0e43a29f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5837b835-9d85-4be7-97ec-2363fab996a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/0799e182-3249-416c-9d59-05898628ab81")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7e700aea-2fcc-48c8-a713-946e2da3f859")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e49dc1ea-59ce-4af8-96b8-b2a4fb674555")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a3db0244-3c4c-4f46-804d-405dbfd9d861")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "817160af-9a76-4699-8f08-2197b2eaef65")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "83e468ee-bf53-4d97-ad2d-e5bbc1faf83f")
+		(at 91.84 85.59 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW17"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e0cf320-9d64-41e1-8448-059d5f2d97ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fb00aada-da10-49bc-8482-fd50af0f371f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "121d5b43-8ed2-4343-b564-2579dbf7b999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04c621dc-50f2-43f7-94dc-12a750e7ec50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2e854d9-7bbd-43ba-a769-37682e8c1fdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c300c51-d3db-4ce6-95b3-81948403f614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/bea66c33-7986-4e2b-8e6c-0cc3a36fde87")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5fae962e-2439-4fb4-bc78-c8592b2e687d")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b44b73dd-1221-4768-a5e9-78e614f01abf")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1c556159-536a-4e68-81f4-7dcd4894a34a")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e824354f-f40a-46ca-9726-d1f317d57a91")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "8a40e5c4-546b-4c01-a90c-dd0c7a7ddef9")
+		(at 53.74 85.59 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW15"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fb99ad5c-f1cd-49c2-a286-807ef3cfdd43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "68435843-1fa1-4b77-8d97-d45a05ba7729")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "279ec496-67df-4765-a879-4cbf20a44925")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e059ba7-2d88-4064-b2aa-2ade25ebf285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f79fcad-5101-4a16-b570-d6f76b4f7128")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "039a4d53-551f-4f4d-a1bb-01eb972a3db3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/3546672f-e281-4e2a-b9c8-6b90f67ff015")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8796053b-2d14-4c44-8532-68e59e86c3e7")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4d7b4f82-c8be-4134-8350-4dd1a40adf35")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a7382685-7b6f-42e9-9bb5-1b3fbe6f9bfb")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3d0f5dd6-bc71-4d4a-82b8-ee5f84a0b3ae")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "a0661276-bb28-4a11-93fa-bbb770b4f6b0")
+		(at 72.79 104.64 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW23"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "82d069ac-cde9-4800-8427-acffee526265")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "628ae036-4834-4745-8062-72d112945e1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36774477-4938-4eac-817c-8d85232d19b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fc59518-31f6-4fa6-8a40-0ed258b37321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4f45ce1-f69b-4282-92f7-fe0494c737f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3faa3601-7d00-46d8-b9fc-c0f5455283ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/974135dc-2c6d-4605-afdf-bf54d2dbbbd2")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1262c23c-1904-4541-8979-be18ff818b4a")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5e0a8c99-fc66-4409-b4d8-2a6124b1385e")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "29984165-00d9-4a92-9f12-10f8ee4d1589")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1d24ddfe-1dff-4bea-9eae-11791c56895c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "a6a13758-c29e-4a3d-9d00-0798b8128eff")
+		(at 129.94 85.59 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW19"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3128cb16-5f4c-46b5-905a-c1a9a0b7d4e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7f3f6ef8-8125-4819-bc4d-3a580faeb529")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da16573a-1554-41ad-9c10-4076a4a0cec2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12cac2f2-ca68-424f-956d-90a2b831bf0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e928561-7977-4e22-ad07-449b4f1d8961")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "631a94cc-dd63-491f-8751-4a67ffb1c8bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/8c07a71b-75ad-4928-a39a-ead8b6340e73")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6a1eadc9-570e-4fda-936f-d4b39f073d24")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "89de8669-8cd3-4bb0-8ab9-534e8c7dc72e")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6658913b-c29c-49ba-a5b8-89d7bbaf71b0")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6c5db081-b8e4-4cd7-af38-89bbe72a66a6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "a7c21006-bd6f-4058-b065-f77086900338")
+		(at 72.79 47.49 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW2"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a0e34acd-d174-41cb-a09b-f8183d89ece9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "99935244-1bd4-456f-b682-ebd21b13c93b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5553a903-a423-4447-85c6-3109a063396b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d805ab2b-d933-43f6-ae69-9e9d4e8bb3d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "664bafd6-fc33-4dcb-9859-404899a84508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32d91022-ffbc-479b-8355-3da9a0504738")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/3bbb2b99-26d8-4678-9159-4d4b165a9c73")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6ae5a3e2-ff7e-48c2-a3ab-bebae9c9307d")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c0a62b0e-9304-43cc-8866-f79bf2fb245c")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bfdc72b7-090c-48fa-a4c5-56204186ca8c")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9307190a-bc31-45ed-9712-2923d70c3555")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "acf86168-809a-48a9-a3c4-8986973f0348")
+		(at 110.89 104.64 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW25"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "99016daa-344e-40fc-a59f-fba0c7b08b80")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d9d6d1f0-06c7-4d4d-a828-1b308eeddce7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27f45429-806f-4878-b3a1-6154861a8400")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94c21e72-1081-47e0-b877-a109bdd25c05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3d689b2-615a-4e6c-8727-d1acf8a12894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87f4c8eb-764f-47a3-8be7-3bc1047d051a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/002b2483-c085-4b5d-b830-4a36913e7aef")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9d3f80a5-6588-4230-8cf9-5b0ce4f51ce6")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6a93a1d3-6e3e-4b3b-939d-2dbe518b3011")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "68f1d978-f1a1-4793-90f9-7c7ff0fa09bf")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dd07dd29-27f7-41a2-887e-fb97888a0284")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "c251339f-4fed-49f8-b388-78e91fa05e80")
+		(at 63.265 95.12)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H2"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "471f7973-9dcc-45d1-8f91-256547bfad35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4090ca83-0f9d-4663-8141-a4d33932114a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e593d812-8ab2-48dd-8ff8-59c323a0b1ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acd7f293-f06d-4447-90cc-02c18c40d218")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a46fc4c-3031-4359-b460-c0d2e76b4ab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b46bf72e-ec17-419b-8c4f-f679cf7b7141")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/5882006d-5360-42f2-8cfb-cd00a73d08bd")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "791f16fa-96cf-4220-baa0-6097cb64293f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3d2a89a9-b311-48c2-937e-e5ec0b010177")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "443041f9-8155-4628-9e9c-96572bc75148")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "248dfbac-65d8-4805-a5ba-2bf26e771c8f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "c768b3cd-fb5b-40ef-9c4d-fae51eab225f")
+		(at 53.74 47.49 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW1"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "877e1734-de55-454f-b0cd-334feb94d273")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7c44ae83-301a-4a4e-b03e-990fc6df0c29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3bcbd71-d63a-4c83-9916-719d410880b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2607e349-030d-492b-aaa8-3fd801b6555a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61e5ad21-3941-400a-857d-32354c5883f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d587dea-354d-460e-acce-82accd5bc614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/cd936aee-7fa6-4fa8-8404-f3cabbcc96c2")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "eb20461e-4784-49c0-bd55-3929314abd30")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d494a818-6fa8-4ce9-b165-a41cf7607ccd")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "572dcfca-cfe2-40ce-ba12-db09b91232bb")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5778b15c-2808-4277-8f90-435240d9f2a0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "cb05df31-d85c-43c9-ad8e-2ea1665bae20")
+		(at 53.74 104.64 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW22"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ae5af13b-7dc1-4758-b749-cc51b9078009")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "40bfb451-161f-4d80-815a-742b6d351069")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "932fc320-fdbb-4e30-af5f-fd5ef6384627")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f943ca1d-2c2a-403d-928b-640d0e78c232")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f71349fc-3d33-4bd4-9704-ee5a312be388")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbd0619d-371d-472f-96a2-a06e4e4c3dee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/f122bf3e-1d54-469a-8ba7-df810001db4d")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "30538250-1da9-40b7-a636-533d780d5af8")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "649c813e-1678-4888-ac63-467c21aa4b2b")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0dcdcf06-a7c9-4750-b41b-10e259635585")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "80587428-5549-4234-8345-9fa52e2bc153")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "cc84f342-f068-4a5f-9bd5-5cc7a3c904c4")
+		(at 91.84 104.64 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW24"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fa92744b-0ae1-4b33-95cc-49c0257fc189")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a70d6e1d-0d90-4460-aee9-4df157172ba1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3888cbc8-7331-4a2d-a978-d8a34a55fc93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34aba3be-7688-4ed6-a6fe-d42940cbe7da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae0b136a-4bc2-435a-9899-9f5d44876116")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22753b24-9ee6-4884-b11a-5918c72712d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/0b92dc94-66fe-4606-ba1b-7d1b2292e2ef")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9c13422f-a8b9-43cf-966c-2b86f1838a52")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4486b99c-c907-4b70-ab86-ddeaee696471")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "43e07092-c229-44c2-b661-5b3077585250")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d244437d-70c0-45e8-9206-01e2cd4866d1")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "d2b74395-6635-4a15-acd6-4de597458b00")
+		(at 148.99 47.49 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW6"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "67b72830-a9d5-4441-b0ad-dc67299455c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a340be1f-3b1f-4e58-a32b-92021d4f49be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e300243-6bad-4652-bdcf-46aa8d5420e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cd15d60-7a82-492b-b0c6-5526fc029bc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "febb3427-a82b-4577-94ea-2bc11f0f9825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "370c230b-a462-4d1f-8c09-50da5b850020")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/ce51eb8c-f813-4657-b51e-37c02b4fd1cd")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "92261c34-83cf-4a06-8cc1-2f89e0e4b4d8")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c4b084de-65f4-47bb-a0cd-beafd16fa5ae")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f902dbb1-b4b9-4451-a6d1-d982b0658a9c")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ac980189-d461-477f-8008-0a5f1a997cc5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "ded73667-7f42-4e9d-bbbf-1d88af6b3070")
+		(at 129.94 47.49 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW5"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ec5dcc42-a43e-425a-a324-5f716fc0e383")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7778e0fb-ebed-4f8e-84d7-639563431b2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82063acf-83a2-4147-b560-ec879749c9e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bcfb3db-8a78-4656-8f5c-961b6663a20e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63a01127-bffb-4219-b49a-ded0586f66ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0406cf4e-a304-4ced-ae92-280b23f448da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/c5a281f1-2d1a-4bed-9703-b60ad68cd1d1")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cc195000-1407-4587-90ed-44119666fb29")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d553f4ce-8bd0-488f-859d-5b8effbbc0e8")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3633446b-35d7-4024-8882-c48b4907200f")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bf7d9f0c-5bf9-4ba1-a833-e88b42470a44")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "dfdba51e-666a-40e7-b91c-d19e3ae88d4a")
+		(at 129.94 104.64 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW26"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "29d13aaf-37e0-4046-898d-41511c130c0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "967a7343-4aa7-4ac8-a38d-f859f69a198f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10aec3db-efe7-41a8-8ac2-ca5236cc1518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6149a1c0-20f6-45e6-b77e-046f1c6debfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff54e1d0-75dd-40c4-9a1f-4c04b54f3267")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a698271-a046-4108-b89e-af22147a8036")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/e5e7d4c7-13ac-428a-a9d0-ebe61da29f28")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "efe9757b-a674-445b-bab8-161e22590b62")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ff9c4829-3b93-4b2b-96a4-5632ffc4a7b5")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fde8be07-5d01-4fa3-abd1-5b5658bce240")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5e8dddec-c0b8-4e9d-b461-6056fdbb4c1c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard Plates:SW_MX_Plate_Placeholder_nodrill_NOBORDER"
+		(layer "F.Cu")
+		(uuid "fccc165f-e87f-40e6-a8e1-9778d390e6a2")
+		(at 91.84 66.54 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW10"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8e89c8fd-5773-4702-aecd-d0d81e23a6e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fc1b7979-aa37-4856-b2ae-76b73c198284")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac6f01c2-3c15-40de-9306-9eebb1b84322")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "760bdbb3-3e14-4a6b-8600-f3b3cea8a410")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2de35e6-9be9-478d-b9f0-004fd24e0b66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60c6282c-1c97-47e2-a472-4029a6052ea0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(path "/7569f1fa-35c6-40e3-bd01-f4020fe89084")
+		(sheetname "/")
+		(sheetfile "Simple Pad - Front Plate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b9ff3b33-0b46-47c3-8329-82544a851aca")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f6f4cdcb-411f-41f0-aeee-2d04e716d8fd")
+		)
+		(fp_line
+			(start -6.9 6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c033c9e8-2542-446f-8aba-502f3f966289")
+		)
+		(fp_line
+			(start -6.9 -6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f062942c-3a44-4d7c-a5cb-d11d19300519")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(gr_arc
+		(start 39.214475 38.4655)
+		(mid 40.825659 34.575759)
+		(end 44.7154 32.964575)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "128efdca-d419-43b6-b634-c3cfb75dff63")
+	)
+	(gr_line
+		(start 39.214975 38.465399)
+		(end 39.214975 113.664576)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "52d73ebd-9208-4957-991c-5faeb5aeb390")
+	)
+	(gr_line
+		(start 44.715374 119.164975)
+		(end 158.009599 119.164975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d64730c3-056a-4234-9142-9662e3871a47")
+	)
+	(gr_arc
+		(start 44.7154 119.164975)
+		(mid 40.826048 117.553952)
+		(end 39.215025 113.6646)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a119b16-1d52-4571-a9a6-b51228233a4a")
+	)
+	(gr_arc
+		(start 158.0141 32.964575)
+		(mid 161.903488 34.575612)
+		(end 163.514525 38.465)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c705d2c6-8316-4609-930c-5792dfde5d27")
+	)
+	(gr_line
+		(start 158.014126 32.964575)
+		(end 44.7154 32.964575)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1f2a1ab-f854-449b-ad5b-b516e3b42401")
+	)
+	(gr_line
+		(start 163.514909 113.655056)
+		(end 163.514551 38.465)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "59684f47-c68d-4467-ae16-2fc3565d8dd3")
+	)
+	(gr_arc
+		(start 163.514911 113.659827)
+		(mid 161.903113 117.551051)
+		(end 158.011889 119.162849)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "94b5f3f4-680f-4bdd-b010-0ba9c8921d49")
+	)
+	(embedded_fonts no)
+)
